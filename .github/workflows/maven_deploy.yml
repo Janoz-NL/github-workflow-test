@@ -2,10 +2,8 @@ name: Maven Build and Deploy
 
 on:
   push:
-    tags:
-      - '*'
     branches:
-      - main
+      - '**'
 
 
 jobs:
